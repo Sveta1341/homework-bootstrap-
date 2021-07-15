@@ -1,0 +1,37 @@
+p.blockquote{
+    color: green;
+}
+a[href^="http"] {
+    color: red;
+}
+ul.list > li:nth-last-child(1) {
+    background-color: green;
+}
+ul ~ p{
+    font-size: 26px;
+}
+#greycol{
+    color: gray;
+
+}
+.text-box p:nth-child(5){
+    color:red;
+}
+.text-box h3:nth-child(1){
+    color: pink;
+}
+h3 + p{
+    color: green ;
+}
+p.yellow{
+    color: yellow;
+}
+.bg-box{
+    background-color: green;
+    height: 500px;
+    width: 700px;
+    background-image: url(/images/dom.jpg), url(/images/grass.png), url(/images/lamp.png), url(/images/Ёжик.png), url(/images/пончик.png);
+    background-size: 40%,25%,5%,3%,3%;
+    background-repeat: no-repeat, repeat-x, repeat-x,repeat-y, repeat-y;
+    background-position: center, bottom, top, left, right;  
+}
